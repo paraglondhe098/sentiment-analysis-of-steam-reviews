@@ -50,16 +50,7 @@ if __name__ == '__main__':
     model = tf.keras.models.load_model('Models/c1_lstm_model_acc_highaccr0.827.keras')
     #Add Reviews in input_reviews.csv file
     input_reviews = pd.read_csv('input_reviews.csv')
-    # unseen_example1 = "as good as gta is, dont buy it." \
-    #                  " Dont support rockstar making dumb decisions," \
-    #                  " removing content, bringing back content from " \
-    #                  "years ago and branding it as a\" new update\"," \
-    #                  " game is full of hackers, your ip is literally " \
-    #                  "accesible to every 3 year old with a mod menu," \
-    #                  " plenty of bugs, rockstar does not give a single " \
-    #                  "♥♥♥♥ about its community. Whatever you say, rockstar" \
-    #                  " doesnt care and only does what its investors say."
-    # unseen_example2 = "Still the best game available."
+
     list_inputs = input_reviews['Reviews']
     preprocessed_inputs = preprocess_and_tokenize(list_inputs)
     prediction = np.round(model.predict(preprocessed_inputs),2)
