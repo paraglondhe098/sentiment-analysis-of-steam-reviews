@@ -63,6 +63,8 @@ pip install -r requirements.txt
 
 4. Open the `sentiment-analysis-of-steam-reviews` notebook using Jupyter Notebook or Jupyter Lab to explore the data, train the LSTM model, and perform sentiment analysis on the Steam game reviews.
 
+5. After training, put the review in the input_reviews.csv file and save, then run main.py and you will get sentiments positive(1) or negative(0) in list format.
+
 ## Model Performance
 
 The LSTM neural network has been trained on the dataset, and the pre-trained model `c1_lstm_model_acc_highaccr0.827.keras` is provided in the `models/` directory. The model achieved an accuracy of 82.7% on the test set and performed well in predicting sentiment labels for Steam game reviews.
