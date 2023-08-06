@@ -49,8 +49,8 @@ The project repository is organized as follows:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/steam-reviews-sentiment-analysis.git
-cd steam-reviews-sentiment-analysis
+git clone https://github.com/paraglondhe098/sentiment-analysis-of-steam-reviews.git
+cd sentiment-analysis-of-steam-reviews
 ```
 
 2. Install the required dependencies:
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 3. Download the dataset and place it in the `data/` directory.
 
-4. Open the `Sentiment-analysis-Steam-Reviews.ipynb` notebook using Jupyter Notebook or Jupyter Lab to explore the data, train the LSTM model, and perform sentiment analysis on the Steam game reviews.
+4. Open the `sentiment-analysis-of-steam-reviews` notebook using Jupyter Notebook or Jupyter Lab to explore the data, train the LSTM model, and perform sentiment analysis on the Steam game reviews.
 
 ## Model Performance
 
